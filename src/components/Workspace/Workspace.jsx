@@ -6,7 +6,7 @@ import ToolsMenu from './ToolsMenu';
 
 const Workspace = () => {
     return (
-        <div className="w-full px-20">
+        <div className="w-full px-10 2xl:px-20">
             <Title />
             <div className="flex justify-between space-x-10">
                 <Pages />

@@ -14,7 +14,7 @@ import Logout from '../../image/logout.svg';
 const Header = () => {
     return (
         <div className="flex justify-between items-center h-28">
-            <div className="flex items-center space-x-14">
+            <div className="flex items-center space-x-10 2xl:space-x-14">
                 <a href="/" className="">
                     <img src={Logo} alt="" />
                 </a>
@@ -25,7 +25,7 @@ const Header = () => {
                     <img src={Refresh} alt="" />
                 </a>
             </div>
-            <div className="flex items-center space-x-14 pr-10">
+            <div className="flex items-center space-x-10 2xl:space-x-14 pr-5 2xl:pr-10">
                 <MenuHeader icon={Profile} menu="My Profile" />
                 <MenuHeader icon={Balance} menu="My Balance" />
                 <MenuHeader icon={Message} menu="Messages" />

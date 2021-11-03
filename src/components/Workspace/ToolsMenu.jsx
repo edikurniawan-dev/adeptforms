@@ -24,17 +24,17 @@ const ToolsMenu = () => {
             {/* add fields */}
             <div className="bg-white p-4 rounded-lg shadow-md space-y-8">
                 <div className="flex items-center space-x-4 ">
-                    <div className="border-2 rounded-full p-1 border-gray-2">
+                    <button className="border-2 rounded-full p-1 border-gray-2">
                         <img src={DoubleRightIcon} alt="" />
-                    </div>
+                    </button>
                     <h1 className="font-medium">Add Fields</h1>
                 </div>
-                <div class="flex items-center space-x-4 rounded-lg border-gray-2 border">
+                <div className="flex items-center space-x-4 rounded-lg border-gray-2 border">
                     <button>
                         <img src={SearchIcon} alt="" className="ml-3" />
                     </button>
                     <input
-                        class="w-full rounded-lg h-10"
+                        className="w-full rounded-lg h-10 focus:outline-none"
                         type="text"
                         placeholder="Search Components"
                     />
@@ -114,26 +114,30 @@ const ToolsMenu = () => {
                     </button>
                 </div>
                 <table className="text-sm w-full">
-                    <tr>
-                        <td className="text-gray-3 py-1">Template Name</td>
-                        <td>Leave Form</td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-3 py-1">Template Author</td>
-                        <td>Admin RIta</td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-3 py-1">Workflow</td>
-                        <td>Leave Approval</td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-3 py-1">Created</td>
-                        <td>Februari 11, 2021</td>
-                    </tr>
-                    <tr>
-                        <td className="text-gray-3 py-1">Last Modified</td>
-                        <td>March 18, 2021</td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td className="text-gray-3 py-1">Template Name</td>
+                            <td>Leave Form</td>
+                        </tr>
+                        <tr>
+                            <td className="text-gray-3 py-1">
+                                Template Author
+                            </td>
+                            <td>Admin RIta</td>
+                        </tr>
+                        <tr>
+                            <td className="text-gray-3 py-1">Workflow</td>
+                            <td>Leave Approval</td>
+                        </tr>
+                        <tr>
+                            <td className="text-gray-3 py-1">Created</td>
+                            <td>Februari 11, 2021</td>
+                        </tr>
+                        <tr>
+                            <td className="text-gray-3 py-1">Last Modified</td>
+                            <td>March 18, 2021</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

@@ -24,18 +24,18 @@ import Light from '../../image/light.svg';
 const EditorSpace = () => {
     return (
         <div className="w-full flex flex-col space-y-10">
-            <div class="relative w-full h-full bg-white rounded-2xl shadow-lg">
-                <div class="absolute left-0 top-0 w-full">
+            <div className="relative w-full h-full bg-white rounded-2xl shadow-lg">
+                <div className="absolute left-0 top-0 w-full">
                     <img src={HeaderImage} alt="" className="w-full" />
                 </div>
-                <div class="relative py-4 px-8 bg-white bg-opacity-50 rounded-2xl flex items-center justify-between">
-                    <div class="flex justify-between items-center bg-white h-9 w-44 rounded-lg p-2">
+                <div className="relative py-4 px-4 2xl:px-8 bg-white bg-opacity-50 rounded-2xl flex items-center justify-between">
+                    <div className="flex justify-between items-center bg-white h-9 w-44 rounded-lg p-2">
                         <h1>Nunito</h1>
                         <button className="">
                             <img src={BottomIcon} alt="" />
                         </button>
                     </div>
-                    <div class="flex justify-between items-center bg-white h-9 w-32 rounded-lg px-4">
+                    <div className="flex justify-between items-center bg-white h-9 w-32 rounded-lg px-4">
                         <button className="">
                             <img src={Minus} alt="" />
                         </button>
@@ -82,16 +82,16 @@ const EditorSpace = () => {
                     </div>
                 </div>
 
-                <div class="relative mt-5 py-4 px-16 space-y-10">
+                <div className="relative mt-5 py-4 px-8 2xl:px-16 space-y-10">
                     <div className="flex items-center justify-between space-x-8">
-                        <div className="flex justify-between items-center space-x-4 h-24 w-1/3 px-5 rounded-lg border border-gray-2 bg-gray">
-                            <div className="flex items-center">
+                        <div className="flex justify-between items-center space-x-4 h-24 w-1/3 px-3 2xl:px-5 rounded-lg border border-gray-2 bg-gray">
+                            <div className="flex items-center text-sm 2xl:text-base">
                                 <img src={Image} alt="" />
                                 <h1>&nbsp;Image Upload</h1>
                             </div>
                             <img src={TreeDots} alt="" />
                         </div>
-                        <div className="flex flex-col justify-center items-center h-24 w-1/3 px-5 rounded-lg border border-dashed border-gray-2 ">
+                        <div className="flex flex-col justify-center items-center h-24 w-1/3 px-3 2xl:px-5 rounded-lg border border-dashed border-gray-2 text-sm 2xl:text-base">
                             <h1 className="font-medium">
                                 Premier Transportation
                             </h1>

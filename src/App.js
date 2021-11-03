@@ -5,7 +5,7 @@ import Workspace from './components/Workspace/Workspace';
 function App() {
     return (
         <div className="pb-10">
-            <div className="px-10 bg-white">
+            <div className="px-5 2xl:px-10 bg-white">
                 <Header />
             </div>
             <div className="flex flex-col">
