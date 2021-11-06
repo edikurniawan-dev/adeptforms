@@ -31,11 +31,11 @@ import AddFieldIcon from '../../image/dropdown-menu/add-field.svg';
 const EditorSpace = () => {
     return (
         <div className="w-full flex flex-col space-y-10">
-            <div className="relative w-full h-100 bg-white rounded-xl shadow-lg">
+            <div className="relative w-full h-100 bg-white rounded-xl 2xl:rounded-2xl shadow-lg">
                 <div className="absolute left-0 top-0 w-full">
                     <img src={HeaderImage} alt="" className="w-full" />
                 </div>
-                <div className="relative py-4 px-4 2xl:px-8 bg-white bg-opacity-50 rounded-xl flex items-center justify-between">
+                <div className="relative py-4 px-4 2xl:px-8 bg-white bg-opacity-50 rounded-xl 2xl:rounded-2xl flex items-center justify-between">
                     <div className="flex justify-between items-center bg-white h-9 w-32 2xl:w-44 rounded-lg p-2">
                         <h1>Nunito</h1>
                         <button className="">
