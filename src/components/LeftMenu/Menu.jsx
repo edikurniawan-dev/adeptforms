@@ -8,7 +8,7 @@ const Menu = (props) => {
             onMouseEnter={() => setBgColor(true)}
             onMouseLeave={() => setBgColor(false)}
             className="">
-            <a href="#0" className="flex w-20 h-16">
+            <button className="flex w-20 h-16 ">
                 <div
                     className={
                         bgColor === false
@@ -16,17 +16,16 @@ const Menu = (props) => {
                             : 'w-3 h-full bg-yellow'
                     }></div>
                 <div
-                    href="#0"
                     className={
                         bgColor === false
-                            ? 'flex justify-center items-center w-full'
-                            : 'flex justify-center items-center w-full bg-yellow-light bg-opacity-30'
+                            ? 'flex justify-center items-center w-full h-full'
+                            : 'flex justify-center items-center w-full bg-yellow-light bg-opacity-30 h-full'
                     }>
                     <div className="">
                         <img src={props.icon} alt="" />
                     </div>
                 </div>
-            </a>
+            </button>
         </li>
     );
 };

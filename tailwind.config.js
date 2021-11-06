@@ -13,6 +13,13 @@ module.exports = {
             width: {
                 30: '30%',
             },
+            inset: {
+                76: '19rem',
+                68: '17rem',
+            },
+            height: {
+                100: '90rem',
+            },
         },
     },
     variants: {

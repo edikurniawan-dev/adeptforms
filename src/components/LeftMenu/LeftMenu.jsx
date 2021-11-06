@@ -1,22 +1,22 @@
 import React from 'react';
 import Menu from './Menu';
 
-import User from '../../image/user.png';
-import Home from '../../image/home.svg';
-import Document from '../../image/document.svg';
-import Folder from '../../image/folder.svg';
-import Record from '../../image/record.svg';
-import Contract from '../../image/contract.svg';
-import Report from '../../image/report.svg';
-import PieChart from '../../image/pie-chart.svg';
-import Calendar from '../../image/calendar.svg';
-import DocumentView from '../../image/document-view.svg';
-import Book from '../../image/book.svg';
-import ArchiveBox from '../../image/archive-box.svg';
-import RoundSensors from '../../image/round-sensors.svg';
-import BookInformation from '../../image/book-information.svg';
-import People from '../../image/people.svg';
-import PaperPlane from '../../image/paper-plane.svg';
+import User from '../../image/left-menu/user.png';
+import Home from '../../image/left-menu/home.svg';
+import Document from '../../image/left-menu/document.svg';
+import Folder from '../../image/left-menu/folder.svg';
+import Record from '../../image/left-menu/record.svg';
+import Contract from '../../image/left-menu/contract.svg';
+import Report from '../../image/left-menu/report.svg';
+import PieChart from '../../image/left-menu/pie-chart.svg';
+import Calendar from '../../image/left-menu/calendar.svg';
+import DocumentView from '../../image/left-menu/document-view.svg';
+import Book from '../../image/left-menu/book.svg';
+import ArchiveBox from '../../image/left-menu/archive-box.svg';
+import RoundSensors from '../../image/left-menu/round-sensors.svg';
+import BookInformation from '../../image/left-menu/book-information.svg';
+import People from '../../image/left-menu/people.svg';
+import PaperPlane from '../../image/left-menu/paper-plane.svg';
 
 const LeftMenu = () => {
     return (

@@ -1,15 +1,15 @@
 import React from 'react';
 import MenuHeader from './MenuHeader';
 
-import Logo from '../../image/logo.png';
-import Details from '../../image/details.svg';
-import Refresh from '../../image/refresh.svg';
-import Profile from '../../image/profile.svg';
-import Balance from '../../image/balance.svg';
-import Message from '../../image/message.svg';
-import Issue from '../../image/issue.svg';
-import Setting from '../../image/setting.svg';
-import Logout from '../../image/logout.svg';
+import Logo from '../../image/header-menu/logo.png';
+import Details from '../../image/header-menu/details.svg';
+import Refresh from '../../image/header-menu/refresh.svg';
+import Profile from '../../image/header-menu/profile.svg';
+import Balance from '../../image/header-menu/balance.svg';
+import Message from '../../image/header-menu/message.svg';
+import Issue from '../../image/header-menu/issue.svg';
+import Setting from '../../image/header-menu/setting.svg';
+import Logout from '../../image/header-menu/logout.svg';
 
 const Header = () => {
     return (

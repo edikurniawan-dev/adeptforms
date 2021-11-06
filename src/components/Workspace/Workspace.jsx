@@ -8,7 +8,7 @@ const Workspace = () => {
     return (
         <div className="w-full px-10 2xl:px-20">
             <Title />
-            <div className="flex justify-between space-x-10">
+            <div className="flex justify-between space-x-10 mb-10">
                 <Pages />
                 <EditorSpace />
                 <ToolsMenu />
