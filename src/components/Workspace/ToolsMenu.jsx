@@ -97,7 +97,7 @@ const ToolsMenu = () => {
                         <img src={SearchIcon} alt="" className="ml-3" />
                     </button>
                     <input
-                        className="w-full rounded-lg h-10 focus:outline-none"
+                        className="w-full rounded-lg h-10 focus:outline-none text-sm"
                         type="text"
                         placeholder="Search Components"
                     />
