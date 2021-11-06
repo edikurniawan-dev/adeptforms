@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/adeptforms/static/css/main.334bbc8b.chunk.css",
-    "main.js": "/adeptforms/static/js/main.d79ececc.chunk.js",
-    "main.js.map": "/adeptforms/static/js/main.d79ececc.chunk.js.map",
+    "main.css": "/adeptforms/static/css/main.0cb4ff1b.chunk.css",
+    "main.js": "/adeptforms/static/js/main.23259ace.chunk.js",
+    "main.js.map": "/adeptforms/static/js/main.23259ace.chunk.js.map",
     "runtime-main.js": "/adeptforms/static/js/runtime-main.4955e41d.js",
     "runtime-main.js.map": "/adeptforms/static/js/runtime-main.4955e41d.js.map",
     "static/js/2.a4eafee3.chunk.js": "/adeptforms/static/js/2.a4eafee3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.ecb6a1a6.chunk.js": "/adeptforms/static/js/3.ecb6a1a6.chunk.js",
     "static/js/3.ecb6a1a6.chunk.js.map": "/adeptforms/static/js/3.ecb6a1a6.chunk.js.map",
     "index.html": "/adeptforms/index.html",
-    "static/css/main.334bbc8b.chunk.css.map": "/adeptforms/static/css/main.334bbc8b.chunk.css.map",
+    "static/css/main.0cb4ff1b.chunk.css.map": "/adeptforms/static/css/main.0cb4ff1b.chunk.css.map",
     "static/js/2.a4eafee3.chunk.js.LICENSE.txt": "/adeptforms/static/js/2.a4eafee3.chunk.js.LICENSE.txt",
     "static/media/add-field.28482376.svg": "/adeptforms/static/media/add-field.28482376.svg",
     "static/media/aligncenter.c9a30e5f.svg": "/adeptforms/static/media/aligncenter.c9a30e5f.svg",
@@ -93,7 +93,7 @@
   "entrypoints": [
     "static/js/runtime-main.4955e41d.js",
     "static/js/2.a4eafee3.chunk.js",
-    "static/css/main.334bbc8b.chunk.css",
-    "static/js/main.d79ececc.chunk.js"
+    "static/css/main.0cb4ff1b.chunk.css",
+    "static/js/main.23259ace.chunk.js"
   ]
 }
